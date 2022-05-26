@@ -33,6 +33,7 @@ a {
 
 i:hover {
   opacity: 0.7;
+  transform: scale(1.5);
 }
 
 .link__hover-effect:after {
@@ -196,7 +197,7 @@ nav {
 }
 
 .about-me__link {
-  font-size: 20px;
+  font-size: 40px;
   color: #242424;
   padding: 0 16px;
 }
