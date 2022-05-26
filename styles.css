@@ -416,6 +416,11 @@ footer {
   height: 70px;
 }
 
+.footer__copyright{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
 .footer__social--link,
 .footer__copyright,
 .footer__logo--popper {
