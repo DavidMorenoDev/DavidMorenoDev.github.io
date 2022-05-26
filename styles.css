@@ -32,7 +32,7 @@ a {
 }
 
 i{
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 i:hover {
@@ -141,7 +141,7 @@ nav {
 /* ABOUT ME */
 
 #about-me {
-  min-height: 100vh;
+  /* margin-bottom: 20px; */
   display: flex;
   flex-direction: column;
 }
@@ -222,7 +222,7 @@ nav {
 }
 
 .about-me__img--container {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   align-items: center;
 }
