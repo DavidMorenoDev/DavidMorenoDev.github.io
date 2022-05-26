@@ -451,6 +451,10 @@ footer {
   opacity: 1;
 }
 
+.trademark{
+  text-align: center;
+}
+
 /* Small phones, tablets, large smartphones */
 @media (max-width: 768px) {
   .nav__link:not(:last-child) {
