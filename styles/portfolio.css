@@ -535,6 +535,10 @@ footer {
     display: none;
   }
 
+  nav{
+    margin-top: 10px;
+  }
+
   .project__wrapper {
     border-radius: 0;
   }
