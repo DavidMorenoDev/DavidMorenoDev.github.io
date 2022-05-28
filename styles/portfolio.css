@@ -447,8 +447,8 @@ footer {
   width: 100%;
   max-width: 500px;
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 28px;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 .footer__row {
   display: flex;
@@ -484,7 +484,7 @@ footer {
 }
 
 .footer__anchor {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -493,7 +493,7 @@ footer {
   opacity: 1;
 }
 
-.trademark {
+.last__info {
   text-align: center;
 }
 
