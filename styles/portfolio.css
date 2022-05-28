@@ -42,7 +42,7 @@ i {
 }
 
 .link__name {
-  /* display: none; */
+  /* display: block; */
   position: absolute;
   bottom: -1px;
   left: -2px;
@@ -50,6 +50,24 @@ i {
   transition: all 300ms;
   font-size: 20px;
   opacity: 0;
+}
+
+.link__github {
+
+margin-left: 5px;
+
+}
+
+.link__call{
+  margin-left: 15px;
+}
+
+.link__whatsapp {
+  margin-left: -11px;
+}
+
+.link__email {
+  margin-left: 13px;
 }
 
 .about-me__link:hover .link__name {
