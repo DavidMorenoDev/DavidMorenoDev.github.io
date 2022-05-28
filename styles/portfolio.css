@@ -176,7 +176,6 @@ nav {
 .personal__logo {
   font-size: 24px;
   color: #6030b1;
-  margin-top: 8px;
   font-weight: bold;
 }
 
@@ -184,6 +183,7 @@ nav {
 
 #about-me {
   /* margin-bottom: 20px; */
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
 }
