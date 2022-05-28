@@ -4,15 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./assets/favicon.jpeg"
-      type="image/x-icon"
-    />
-    <title>David Moreno Portfolio</title>
-    <link rel="stylesheet" href="./styles/portfolio.css" />
+     <link rel="shortcut icon" href="./assets/favicon.jpeg" type="image/x-icon">
+    <title>Web page creation</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
     <script
-      src="https://kit.fontawesome.com/2932c30e45.js"
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
     ></script>
   </head>
@@ -20,7 +16,7 @@
   <body>
     <section id="about-me">
       <nav>
-        <div class="personal__logo">Software Developer Intern</div>
+        <div class="personal__logo">Pay when the project is done</div>
         <ul class="nav__link--list">
           <li class="nav__link">
             <a
@@ -31,15 +27,14 @@
           </li>
           <li class="nav__link">
             <a
-              target="_blank"
               href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >Technology Stack</a
+              >TechnologyStack</a
             >
           </li>
           <li class="nav__link">
             <a
-              href="https://wa.me/15551234567?text=Hola%20David"
+              href="mailto:cesardaviddev@gmail.com"
               class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
@@ -49,13 +44,9 @@
       <div class="flex flex-1">
         <div class="about-me__info row">
           <div class="about-me__info--container">
-            <figure class="about-me__picture--mask">
-              <img
-                src="./assets/me.jpeg"
-                class="about-me__picture"
-                alt="Picture of Me!"
-              />
-            </figure>
+            <!--           <figure class="about-me__picture--mask">
+            <img src="./assets/me.jpeg" class="about-me__picture" alt="Picture of Me!">
+          </figure> -->
             <h1 class="about-me__info--title">
               Hey! I'm <span class="text--purple">David Moreno</span>&nbsp;<span
                 class="wave"
@@ -63,46 +54,27 @@
               >
             </h1>
             <p class="about-me__info--para">
-              I am a Front-end software developer who can sign an
-              <strong class="text--purple">internship contract</strong>. Check
-              out my front-end projects below. Spanish is my native language and
-              I have full professional proficiency in English. I have immediate
-              and full-time availability to work on-site in Barcelona.
+              I'm a
+              <strong class="text--purple">frontend software engineer</strong>
+              with a strong passion for building responsive and performant web
+              applications with great user experiences that positively impacts
+              the world.
             </p>
             <div class="about-me__links">
+              <!--             <a href="" class="about-me__link">
+              <i class="fab fa-linkedin-in"></i>
+            </a> -->
+              <!--             <a href="" class="about-me__link">
+              <i class="fab fa-github"></i>
+            </a> -->
               <a href="" class="about-me__link">
-                <i class="fa-brands fa-linkedin-in"></i>
-                <div class="link__name">Linkedin</div>
-              </a>
-              <a href="" class="about-me__link">
-                <i class="fa-brands fa-github"></i>
-                <div class="link__name link__github">GitHub</div>
-              </a>
-              <a 
-              target="_blank"
-              href="tel:+34601022399" 
-              class="about-me__link">
-                <i
-                  class="fa-solid fa-mobile-screen fa-shake"
-                  style="--fa-animation-duration: 2s"
-                ></i>
-                <div class="link__name link__call">Call</div>
-              </a>
-              <a
-                target="_blank"
-                href="https://wa.me/15551234567?text=Hola%20David"
-                class="about-me__link"
-              >
-                <i class="fa-brands fa-whatsapp"></i>
-                <div class="link__name link__whatsapp">WhatsApp</div>
+                <i class="fa fa-whatsapp"></i>
               </a>
               <a href="" class="about-me__link">
-                <i class="fa-regular fa-envelope"></i>
-                <div class="link__name link__email">Email</div>
+                <i class="far fa-envelope"></i>
               </a>
               <a href="#" target="_blank" class="about-me__link">
-                <i class="fa-regular fa-file-pdf"></i>
-                <div class="link__name link__resume">Resume</div>
+                <i class="fas fa-file-pdf"></i>
               </a>
             </div>
           </div>
@@ -260,7 +232,7 @@
               </figure>
               <span class="language__name">JavaScript</span>
             </div>
-            <!--             <div class="language">
+<!--             <div class="language">
               <figure class="language__img--wrapper">
                 <img
                   src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
@@ -270,7 +242,7 @@
               </figure>
               <span class="language__name">TypeScript</span>
             </div> -->
-            <!--             <div class="language">
+<!--             <div class="language">
               <figure class="language__img--wrapper">
                 <img
                   src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png"
@@ -280,7 +252,7 @@
               </figure>
               <span class="language__name">Vue</span>
             </div> -->
-            <!--             <div class="language">
+<!--             <div class="language">
               <figure class="language__img--wrapper">
                 <img
                   src="https://cdn.iconscout.com/icon/free/png-256/nuxt-dot-js-3628959-3030184.png"
@@ -300,7 +272,7 @@
               </figure>
               <span class="language__name">React</span>
             </div>
-            <!--             <div class="language">
+<!--             <div class="language">
               <figure class="language__img--wrapper">
                 <img
                   src="https://mobx.js.org/img/mobx.png"
@@ -318,21 +290,22 @@
     <footer>
       <div class="row footer__row">
         <a href="#" class="footer__anchor">
-          <i class="fa-solid fa-house-chimney fa-3x back-footer"></i>
-
+          <figure class="footer__logo">
+            <img src="./assets/logo.svg" class="footer__logo--img" alt="" />
+          </figure>
           <span class="footer__logo--popper">
             Top
-            <i class="fa-solid fa-angles-up"></i>
+            <i class="fas fa-arrow-up"></i>
           </span>
         </a>
         <div class="footer__social--list">
-          <!--           <a
+          <a
             href="https://google.com"
             target="_blank"
             class="footer__social--link link__hover-effect link__hover-effect--white"
             target="_blank"
             >GitHub</a
-          > -->
+          >
           <a
             href="https://google.com"
             target="_blank"
@@ -341,24 +314,22 @@
             >LinkedIn</a
           >
           <a
-            href="tel:+34601022399"
+            href="mailto:cesardaviddev@gmail.com"
             target="_blank"
             class="footer__social--link link__hover-effect link__hover-effect--white"
             target="_blank"
-            >Call</a
+            >Email</a
           >
-          <!--           <a
+          <a
             href=""
             target="_blank"
             class="footer__social--link link__hover-effect link__hover-effect--white"
             target="_blank"
             >Resume</a
-          > -->
+          >
         </div>
         <div class="footer__copyright">
-          David Moreno - Software Developer
-          <p class="last__info">Portfolio updated to 2022</p>
-          <p></p>
+          Creador internacional de Paginas Web 2022
         </div>
       </div>
     </footer>
