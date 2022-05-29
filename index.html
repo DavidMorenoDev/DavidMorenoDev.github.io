@@ -31,7 +31,6 @@
           </li>
           <li class="nav__link">
             <a
-              target="_blank"
               href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Technology Stack</a
@@ -39,7 +38,8 @@
           </li>
           <li class="nav__link">
             <a
-              href="https://wa.me/15551234567?text=Hola%20David"
+              target="_blank"
+              href="tel:+34601022399"
               class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
@@ -57,7 +57,8 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              Hey! I'm <span class="text--purple">David Moreno</span>&nbsp;<span
+              Hello! I'm
+              <span class="text--purple">David Moreno</span>&nbsp;<span
                 class="wave"
                 >👋</span
               >
@@ -70,18 +71,23 @@
               and full-time availability to work on-site in Barcelona.
             </p>
             <div class="about-me__links">
-              <a href="" class="about-me__link">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/david-moreno-developer/"
+                class="about-me__link"
+              >
                 <i class="fa-brands fa-linkedin-in"></i>
                 <div class="link__name">Linkedin</div>
               </a>
-              <a href="" class="about-me__link">
+              <a
+                target="_blank"
+                href="https://github.com/DavidMorenoDev"
+                class="about-me__link"
+              >
                 <i class="fa-brands fa-github"></i>
                 <div class="link__name link__github">GitHub</div>
               </a>
-              <a 
-              target="_blank"
-              href="tel:+34601022399" 
-              class="about-me__link">
+              <a target="_blank" href="tel:+34601022399" class="about-me__link">
                 <i
                   class="fa-solid fa-mobile-screen fa-shake"
                   style="--fa-animation-duration: 2s"
@@ -90,17 +96,24 @@
               </a>
               <a
                 target="_blank"
-                href="https://wa.me/15551234567?text=Hola%20David"
+                href="https://wa.me/34601022399?text=Hola%20David"
                 class="about-me__link"
               >
                 <i class="fa-brands fa-whatsapp"></i>
                 <div class="link__name link__whatsapp">WhatsApp</div>
               </a>
-              <a href="" class="about-me__link">
+              <a
+                href="mailto:davidmorenodevelop@gmail.com"
+                class="about-me__link"
+              >
                 <i class="fa-regular fa-envelope"></i>
                 <div class="link__name link__email">Email</div>
               </a>
-              <a href="#" target="_blank" class="about-me__link">
+              <a
+                href="./assets/IT-Resume-Update.pdf"
+                target="_blank"
+                class="about-me__link"
+              >
                 <i class="fa-regular fa-file-pdf"></i>
                 <div class="link__name link__resume">Resume</div>
               </a>
@@ -127,26 +140,30 @@
             <li class="project">
               <div class="project__wrapper">
                 <img
-                  src="./assets/chicken.JPG"
+                  src="./assets/oxygenshop.JPG"
                   class="project__img"
-                  alt="Car subscription project"
+                  alt="screenshot of ecommerce builder website"
                 />
                 <div class="project__description">
                   <h3 class="project__description--title">
-                    Chiken Restaurant Website
+                    Website of Ecommerce Builder
                   </h3>
                   <h4 class="project__description--sub-title">
                     Html, CSS, JavaScript
                   </h4>
                   <p class="project__description--para">
-                    Pagina web para restaurante de comida rapida
+                    Website created for an ecommerce builder
                   </p>
                   <div class="project__description--links">
-                    <!--                   <a href="https://www.github.com/yourlink" target="_blank" class="project__description--link">
-                    <i class="fab fa-github"></i>
-                  </a> -->
                     <a
-                      href="https://www.broastershouse.com/"
+                      href="https://github.com/DavidMorenoDev/2-BestShop"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://davidmorenodev.github.io/2-BestShop/"
                       class="project__description--link"
                       target="_blank"
                     >
@@ -159,56 +176,64 @@
             <li class="project">
               <div class="project__wrapper">
                 <img
-                  src="./assets/spa.JPG"
+                  src="./assets/giftlistreact.JPG"
                   class="project__img"
-                  alt="Car subscription project"
+                  alt="React static gift list"
                 />
                 <div class="project__description">
-                  <h3 class="project__description--title">Spa Webpage</h3>
+                  <h3 class="project__description--title">Static React App</h3>
                   <h4 class="project__description--sub-title">
-                    Html, CSS, JavaScript
-                  </h4>
-                  <p class="project__description--para">Spa webpage</p>
-                  <div class="project__description--links">
-                    <!--                  <a href="https://www.github.com/yourlink" target="_blank" class="project__description--link">
-                    <i class="fab fa-github"></i>
-                  </a> -->
-                    <a
-                      href="https://spaviadayspa.com/"
-                      class="project__description--link"
-                      target="_blank"
-                    >
-                      <i class="fas fa-link"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="project">
-              <div class="project__wrapper">
-                <img
-                  src="./assets/nalen.JPG"
-                  class="project__img"
-                  alt="Car subscription project"
-                />
-                <div class="project__description">
-                  <h3 class="project__description--title">Skin care Shop</h3>
-                  <h4 class="project__description--sub-title">
-                    Html, CSS, JavaScript, React
+                    React, Storybook
                   </h4>
                   <p class="project__description--para">
-                    Nalen Ayurveda sells specialized skin care products. With a
-                    color palette of light blue and earth tones, this design
-                    projects a sense of calm in line with their products. The
-                    design has a zen-like simplicity that gives it a light, easy
-                    user experience.
+                    React App make to join the hackathon JOBarcelona '22
                   </p>
                   <div class="project__description--links">
-                    <!--                   <a href="https://www.github.com/yourlink" target="_blank" class="project__description--link">
-                    <i class="fab fa-github"></i>
-                  </a> -->
                     <a
-                      href="https://www.nalenayurveda.com/"
+                      href="https://github.com/DavidMorenoDev/gift-list-nuwe"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://giftlistnuwejobbarcelona.netlify.app/"
+                      class="project__description--link"
+                      target="_blank"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/blogbootstrap.JPG"
+                  class="project__img"
+                  alt="Screenshot of the blogbootstrap5"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Blog made with Bootstrap5
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    html, bootstrap5
+                  </h4>
+                  <p class="project__description--para">
+                    Blog made with Bootstrap5
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/DavidMorenoDev/2-BlogBoostrap5"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://davidmorenodev.github.io/2-BlogBoostrap5/"
                       class="project__description--link"
                       target="_blank"
                     >
@@ -298,6 +323,16 @@
                   class="language__img"
                 />
               </figure>
+              <span class="language__name">Angular</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="/assets/angular.svg"
+                  alt="React Logo"
+                  class="language__img"
+                />
+              </figure>
               <span class="language__name">React</span>
             </div>
             <!--             <div class="language">
@@ -334,7 +369,7 @@
             >GitHub</a
           > -->
           <a
-            href="https://google.com"
+            href="https://www.linkedin.com/in/david-moreno-developer/"
             target="_blank"
             class="footer__social--link link__hover-effect link__hover-effect--white"
             target="_blank"
