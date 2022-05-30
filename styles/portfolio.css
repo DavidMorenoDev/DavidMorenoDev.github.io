@@ -346,6 +346,10 @@ nav {
   opacity: 1;
 }
 
+.angular__text{
+  bottom: -15px;
+}
+
 /* PROJECTS */
 
 .project {
@@ -531,6 +535,12 @@ footer {
     left: 30px;
     padding-right: 30px;
   }
+
+  .angular__text{
+  bottom: -20px;
+}
+
+
 }
 
 /* SMALL PHONES */
@@ -538,6 +548,10 @@ footer {
   .nav__link:not(:last-child) {
     display: none;
   }
+
+  .angular__text{
+  bottom: -40px;
+}
 
   nav{
     margin-top: 10px;
