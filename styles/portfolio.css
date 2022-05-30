@@ -300,6 +300,23 @@ nav {
   }
 }
 
+.shrink__grow {
+  display: inline-block;
+  animation: animate-shrink__grow 2500ms infinite ease-in-out;
+}
+
+@keyframes animate-shrink__grow {
+  0% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1.01);
+  }
+  100% {
+    transform: scale(0.95);
+  }
+}
+
 /* TECH - STACK */
 
 .language__img {
@@ -344,6 +361,10 @@ nav {
 .language:hover .language__name {
   transform: scale(1);
   opacity: 1;
+}
+
+.angular__text{
+  bottom: -15px;
 }
 
 /* PROJECTS */
@@ -531,6 +552,12 @@ footer {
     left: 30px;
     padding-right: 30px;
   }
+
+  .angular__text{
+  bottom: -20px;
+}
+
+
 }
 
 /* SMALL PHONES */
@@ -538,6 +565,10 @@ footer {
   .nav__link:not(:last-child) {
     display: none;
   }
+
+  .angular__text{
+  bottom: -40px;
+}
 
   nav{
     margin-top: 10px;
