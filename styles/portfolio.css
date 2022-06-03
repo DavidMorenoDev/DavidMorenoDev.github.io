@@ -367,6 +367,10 @@ nav {
   bottom: -15px;
 }
 
+.ts__text{
+  bottom: -17px;
+}
+
 /* PROJECTS */
 
 .project {
@@ -567,7 +571,12 @@ footer {
   }
 
   .angular__text{
-  bottom: -40px;
+  bottom: -50px;
+}
+
+.ts__text{
+  bottom: -20px;
+
 }
 
   nav{
